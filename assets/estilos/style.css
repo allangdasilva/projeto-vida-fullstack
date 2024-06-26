@@ -11,6 +11,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Source Sans 3", sans-serif;
+    text-decoration: none;
+}
+.btn {
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+.btn-style {
+    background: var(--laranja);
+    color: var(--branco);
 }
 /* HEADER */
 
@@ -31,18 +40,9 @@ header nav ul {
     gap: 30px;
 }
 header nav ul li a {
-    text-decoration: none;
     padding-block: 16px;
     font-weight: 450;
     color: var(--azul);
-}
-header nav ul li .btn {
-    padding: 5px 30px;
-    border-radius: 20px;
-}
-header nav ul li .btn-style {
-    background: var(--laranja);
-    color: var(--branco);
 }
 
 /* END HEADER */
@@ -54,4 +54,38 @@ main section {
     display: flex;
     max-width: 1280px;
     margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+}
+main section article {
+    flex-basis: 40%;
+}
+main section article h1 {
+    font-size: 7rem;
+    font-weight: 350;
+    line-height: 90px;
+    margin-top: -30px;
+    margin-bottom: 5px;
+    color: var(--azul-escuro);
+}
+main section article h2 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+    color: var(--azul);
+}
+main section article p {
+    max-width: 400px;
+    margin-bottom: 20px;
+    color: var(--azul);
+}
+main section figcaption {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+}
+main section figcaption img {
+    width: 700px;
 }
