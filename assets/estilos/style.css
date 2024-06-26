@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+:root {
+    --azul: #3399cc;
+    --azul-claro: #b1f4ff;
+    --azul-escuro: #333366;
+    --laranja: #ff6633;
+    --branco: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+/* HEADER */
+
+header {
+    padding-inline: 16px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    height: 120px;
+    margin-inline: auto;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+header nav ul li a {
+    text-decoration: none;
+    padding-block: 16px;
+    font-weight: 450;
+    color: var(--azul);
+}
+header nav ul li .btn {
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+header nav ul li .btn-style {
+    background: var(--laranja);
+    color: var(--branco);
+}
+
+/* END HEADER */
+
+main {
+    padding-inline: 16px;
+}
+main section {
+    display: flex;
+    max-width: 1280px;
+    margin-inline: auto;
+}
