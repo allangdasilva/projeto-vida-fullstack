@@ -21,6 +21,12 @@
     background: var(--laranja);
     color: var(--branco);
 }
+body {
+    background-image: url(/assets/imagens/bolha-background.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50%;
+}
 /* HEADER */
 
 header {
@@ -31,7 +37,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     max-width: 1280px;
-    height: 120px;
+    height: 115px;
     margin-inline: auto;
 }
 header nav ul {
@@ -66,7 +72,6 @@ main section article h1 {
     font-size: 7rem;
     font-weight: 350;
     line-height: 90px;
-    margin-top: -30px;
     margin-bottom: 5px;
     color: var(--azul-escuro);
 }
@@ -89,7 +94,7 @@ main section figcaption {
     justify-content: center;
 }
 main section figcaption img {
-    width: 700px;
+    width: 90%;
 }
 
 /* END MAIN */
@@ -104,6 +109,7 @@ footer div {
     justify-content: start;
     align-items: center;
     max-width: 1280px;
+    height: 50px;
     margin-inline: auto;
 }
 footer div ul {
@@ -115,3 +121,5 @@ footer div ul a i {
     font-size: 2rem;
     color: var(--azul-escuro);
 }
+
+/* END FOOTER */
