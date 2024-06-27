@@ -47,6 +47,8 @@ header nav ul li a {
 
 /* END HEADER */
 
+/* MAIN  */
+
 main {
     padding-inline: 16px;
 }
@@ -88,4 +90,28 @@ main section figcaption {
 }
 main section figcaption img {
     width: 700px;
+}
+
+/* END MAIN */
+
+/* FOOTER */
+
+footer {
+    padding-inline: 16px;
+}
+footer div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+footer div ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+footer div ul a i {
+    font-size: 2rem;
+    color: var(--azul-escuro);
 }
