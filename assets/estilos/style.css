@@ -28,7 +28,7 @@
     color: var(--laranja);
 }
 body {
-    background-image: url(/assets/imagens/bolha-background.png);
+    background-image: url(../imagens/bolha-background.png);
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 51%;
