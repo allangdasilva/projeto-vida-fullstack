@@ -20,6 +20,12 @@
 .btn-style {
     background: var(--laranja);
     color: var(--branco);
+
+    transition: 0.2s;
+}
+.btn-style:hover {
+    background: var(--branco);
+    color: var(--laranja);
 }
 body {
     background-image: url(/assets/imagens/bolha-background.png);
@@ -49,6 +55,9 @@ header nav ul li a {
     padding-block: 16px;
     font-weight: 450;
     color: var(--azul);
+}
+header nav ul li a:hover {
+    color: var(--azul-claro);
 }
 
 /* END HEADER */
@@ -120,6 +129,9 @@ footer div ul {
 footer div ul a i {
     font-size: 2rem;
     color: var(--azul-escuro);
+}
+footer div ul a i:hover {
+    transform: scale(1.1);
 }
 
 /* END FOOTER */
