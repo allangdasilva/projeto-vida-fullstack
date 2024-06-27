@@ -1,0 +1,75 @@
+:root {
+    --azul-fundo: #b1f4ff;
+}
+@media screen and (max-width:1008px) {
+    main section article h1 {
+        line-height: 65px;
+        font-size: 5.2rem;
+        margin-bottom: 5px;
+        font-weight: 380;
+    }
+    main section article h2 {
+        font-size: 1.9rem;
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width:850px) {
+    body {
+        background-size: 70%;
+        background-position: left bottom;
+    }
+    header nav {
+        flex-direction: column;
+        height: 130px;
+        margin-bottom: 25px;
+    }
+    main section {
+        flex-direction: column;
+    }
+    main section article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    main section article p {
+        max-width: 70%;
+    }
+    main section figcaption img {
+        width: 70%;
+    }
+    footer div {
+        justify-content: center;
+    }
+}
+@media screen and (max-width:700px) {
+    body {
+        background-color: var(--azul-fundo);
+    }
+    main section figcaption img {
+        width: 90%;
+    }
+}
+@media screen and (max-width:470px) {
+    header nav {
+        height: 140px;
+    }
+    header nav ul {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    main section figcaption img {
+        width: 100%;
+    }
+}
+@media screen and (max-width:403px) {
+    header nav {
+        height: 170px;
+    }
+    main section figcaption {
+        margin-bottom: 10px;
+    }
+}
