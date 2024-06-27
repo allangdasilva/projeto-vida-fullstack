@@ -1,5 +1,10 @@
 :root {
     --azul-fundo: #b1f4ff;
+    --azul: #3399cc;
+    --azul-claro: #b1f4ff;
+    --azul-escuro: #333366;
+    --laranja: #ff6633;
+    --branco: #fff;
 }
 @media screen and (max-width:1008px) {
     main section article h1 {
@@ -11,6 +16,9 @@
     main section article h2 {
         font-size: 1.9rem;
         margin-bottom: 0px;
+    }
+    header nav ul li a:hover {
+        color: var(--azul-escuro);
     }
 }
 @media screen and (max-width:850px) {
